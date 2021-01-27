@@ -29,18 +29,20 @@ namespace TrackerUI
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.headerLable = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // headerLable
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(284, 172);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(208, 86);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.headerLable.AutoSize = true;
+            this.headerLable.Font = new System.Drawing.Font("Segoe UI Light", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.headerLable.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
+            this.headerLable.Location = new System.Drawing.Point(284, 172);
+            this.headerLable.Name = "headerLable";
+            this.headerLable.Size = new System.Drawing.Size(644, 149);
+            this.headerLable.TabIndex = 0;
+            this.headerLable.Text = "Tournament:";
+            this.headerLable.Click += new System.EventHandler(this.label1_Click);
             // 
             // TournamentViewrForm
             // 
@@ -48,7 +50,7 @@ namespace TrackerUI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1777, 1188);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.headerLable);
             this.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.Name = "TournamentViewrForm";
@@ -60,7 +62,7 @@ namespace TrackerUI
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label headerLable;
     }
 }
 
