@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{791EDE8C-FA20-4C08-9981-B830CF110241}</ProjectGuid>
+    <ProjectGuid>{30978B8F-37CC-4D2A-9775-449AAF720F06}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>TrackerUI</RootNamespace>
     <AssemblyName>TrackerUI</AssemblyName>
